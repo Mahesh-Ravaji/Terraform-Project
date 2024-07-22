@@ -1,0 +1,11 @@
+.terraform.lock.hcl
+.terraform/providers/registry.terraform.io/*
+ 
+.extra.txt
+
+# Open or create .gitignore
+vim .gitignore
+
+# Add entries for sensitive files
+*.tfvars
+sensitive-file.txt
